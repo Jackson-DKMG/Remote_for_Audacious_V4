@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri May 08 09:09:09 CEST 2020
+1.base=C\:\\Users\\Jackson\\AndroidSudioProjects\\remote_V2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\Jackson\\AndroidSudioProjects\\remote_V2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=classes.dex

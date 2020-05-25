@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Basic settings"/>
+    <EditTextPreference
+        android:hint="0.0.0.0"
+        android:key="host_ip"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Audacious host IP"
+        android:visibility="visible" />
+    <EditTextPreference
+        android:key="host_port"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="SSH Port"
+        android:visibility="visible"
+        android:hint="22"/>
+    <EditTextPreference
+        android:key="username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Username" />
+    <EditTextPreference
+        android:key="password"
+        android:password="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Password" />
+    <EditTextPreference
+        android:key="home"
+        android:title="Audacious host home"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:hint="/home/username/" />
+    <EditTextPreference
+        android:key="playlist1"
+        android:title="Alias for playlist 1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="1" />
+    <EditTextPreference
+        android:key="playlist2"
+        android:title="Alias for playlist 2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="2" />
+    <PreferenceCategory
+        android:title="Don't switch that if Audacious is running."/>
+    <SwitchPreference
+        android:defaultValue="False"
+        android:text="Don't switch if Audacious is running"
+        android:title="Headless server"
+        android:key="headless"/>
+    <PreferenceCategory
+        android:title="Customize volume control (escape any double quotes)"/>
+    <EditTextPreference
+       android:key="customGetVolume"
+        android:title="Get volume"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="amixer -D default sget Master | grep % | head -1 | awk -F '[' '{print $2}' | awk -F ']' '{print $1}'" />
+    <EditTextPreference
+        android:key="customVolumeUp"
+        android:title="Increase volume"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="amixer -D default sset Master 5%+ | grep % | head -1 | awk -F '[' '{print $2}' | awk -F ']' '{print $1}'" />
+    <EditTextPreference
+        android:key="customVolumeDown"
+        android:title="Decrease volume"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="amixer -D default sset Master 5%- | grep % | head -1 | awk -F '[' '{print $2}' | awk -F ']' '{print $1}'" />
+</PreferenceScreen>

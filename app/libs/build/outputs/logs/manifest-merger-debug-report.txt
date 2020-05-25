@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9bffb50c1644ee3a1a8859dfa0830461\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a3acabf0d76a838cf2f75a6daaa6b345\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e33b552c8cb2bcd18ee2cddfb3e02f43\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4e25730c987abd33a4bb972c013e2cfd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\32ea36a639908739e93cd9a04bab1072\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e5206a04ff19439d4dc7d89c6c95aa35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7857700b5a981337b7c45a643531b42a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f3489e4db0338ff1386dbfebe716d98e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3a118969f9922812dc13697e633b9c43\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\7c56016650b5eb7e90f557030da19b02\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5a81103d5f4d6f16451aeaadbc77f8de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fa0bbb7f7629bc984c459c1a76ebd2ec\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3e629742231115f9ffa682caaf0fba9f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea068bf1efb8e8d460ba45f5e60a7540\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:2:11-69
+	xmlns:xsi
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:4:5-58
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:11:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e33b552c8cb2bcd18ee2cddfb3e02f43\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e33b552c8cb2bcd18ee2cddfb3e02f43\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.remote.MainActivity
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:17:9-24:20
+	android:screenOrientation
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.remote.Settings
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:25:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:26:13-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.PREFERENCE
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:28:13-31:29
+category#android.intent.category.PREFERENCE
+ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:30:17-79
+	android:name
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml:30:27-76
+uses-sdk
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9bffb50c1644ee3a1a8859dfa0830461\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9bffb50c1644ee3a1a8859dfa0830461\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a3acabf0d76a838cf2f75a6daaa6b345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\a3acabf0d76a838cf2f75a6daaa6b345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e33b552c8cb2bcd18ee2cddfb3e02f43\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e33b552c8cb2bcd18ee2cddfb3e02f43\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4e25730c987abd33a4bb972c013e2cfd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4e25730c987abd33a4bb972c013e2cfd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\32ea36a639908739e93cd9a04bab1072\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\32ea36a639908739e93cd9a04bab1072\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e5206a04ff19439d4dc7d89c6c95aa35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e5206a04ff19439d4dc7d89c6c95aa35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7857700b5a981337b7c45a643531b42a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7857700b5a981337b7c45a643531b42a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f3489e4db0338ff1386dbfebe716d98e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f3489e4db0338ff1386dbfebe716d98e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3a118969f9922812dc13697e633b9c43\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3a118969f9922812dc13697e633b9c43\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\7c56016650b5eb7e90f557030da19b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\7c56016650b5eb7e90f557030da19b02\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5a81103d5f4d6f16451aeaadbc77f8de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5a81103d5f4d6f16451aeaadbc77f8de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fa0bbb7f7629bc984c459c1a76ebd2ec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fa0bbb7f7629bc984c459c1a76ebd2ec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3e629742231115f9ffa682caaf0fba9f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3e629742231115f9ffa682caaf0fba9f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea068bf1efb8e8d460ba45f5e60a7540\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Jackson\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea068bf1efb8e8d460ba45f5e60a7540\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jackson\AndroidSudioProjects\remote_V2\app\src\main\AndroidManifest.xml
