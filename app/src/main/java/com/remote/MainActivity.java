@@ -826,25 +826,25 @@ public class MainActivity extends Activity {
                                 Thread.sleep(100);
                                 i = i + 1;
                             }
-                        } catch (Exception e1) {
-                            e1.printStackTrace();
-                        }
+
                         if (song.trackName != o) {
                             o = song.trackName;
+                        }
 
+                        } catch (Exception e1) {
+                                e1.printStackTrace();
+                            }
 
                         if (!(o == 0)) {
                            // o = o - 1;
                             //createListview();
                             scrollToPosition();
-                        } else {
-                            toast();
                         }
                     }
                 handler.postDelayed(this, 10000); //check the current track every 10 seconds. If it changed, scroll to the new position. Might also act as a keepalive for the connection ?
             }
         }
-    }};
+    };
 
 
 public void createListview() {
