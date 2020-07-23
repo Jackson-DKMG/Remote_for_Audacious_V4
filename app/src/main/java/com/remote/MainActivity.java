@@ -841,7 +841,7 @@ public class MainActivity extends Activity {
                             scrollToPosition();
                         }
                     }
-                handler.postDelayed(this, 10000); //check the current track every 10 seconds. If it changed, scroll to the new position. Might also act as a keepalive for the connection ?
+                //handler.postDelayed(this, 10000); //check the current track every 10 seconds. If it changed, scroll to the new position. Might also act as a keepalive for the connection ?
                 // DISABLED. This is really too freaking annoying as the playlist keeps scrolling back to the current song, can't navigate and search for another track.
             }
         }
