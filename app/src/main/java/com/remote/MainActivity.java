@@ -842,6 +842,7 @@ public class MainActivity extends Activity {
                         }
                     }
                 handler.postDelayed(this, 10000); //check the current track every 10 seconds. If it changed, scroll to the new position. Might also act as a keepalive for the connection ?
+                // DISABLED. This is really too freaking annoying as the playlist keeps scrolling back to the current song, can't navigate and search for another track.
             }
         }
     };
@@ -1027,7 +1028,7 @@ public void startup() {
          });
 
 
-      handler.post(refreshTrack);  //refresh track and move playlist to position every X seconds : annoying as hell when screen is on. Useless when screen is off.
+      //handler.post(refreshTrack);  //refresh track and move playlist to position every X seconds : annoying as hell when screen is on. Useless when screen is off.
                                        // onResume() does it.
 
     } else {
