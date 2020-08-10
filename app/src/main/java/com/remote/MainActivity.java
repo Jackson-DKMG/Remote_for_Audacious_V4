@@ -801,7 +801,7 @@ public class MainActivity extends Activity {
         Toast.makeText(getApplicationContext(), "Not connected.", Toast.LENGTH_LONG).show();
     }
 
-    Handler handler = new Handler();
+    /* Handler handler = new Handler();
     public Runnable refreshTrack = new Runnable() {
 
         @Override
@@ -847,7 +847,7 @@ public class MainActivity extends Activity {
         }
     };
 
-
+ */
 public void createListview() {
 
     try {
