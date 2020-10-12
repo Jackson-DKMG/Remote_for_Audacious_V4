@@ -16,6 +16,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
+import android.os.PowerManager;
 import android.os.Process;
 import android.os.Vibrator;
 //import androidx.annotation.RequiresApi;
@@ -801,7 +802,7 @@ public class MainActivity extends Activity {
         Toast.makeText(getApplicationContext(), "Not connected.", Toast.LENGTH_LONG).show();
     }
 
-    /* Handler handler = new Handler();
+    Handler handler = new Handler();
     public Runnable refreshTrack = new Runnable() {
 
         @Override
@@ -812,11 +813,11 @@ public class MainActivity extends Activity {
             } catch (Exception e) {
                 if (e.toString().contains("already connected")) {
 
-                  // PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+                    PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 
-                   //if (pm.isInteractive()) {
+                    if (pm.isInteractive()) {
 
-                    SshCommands.TrackName song = new SshCommands.TrackName();
+                        SshCommands.TrackName song = new SshCommands.TrackName();
 
                         song.execute();
                         //o = 0;
@@ -827,27 +828,30 @@ public class MainActivity extends Activity {
                                 i = i + 1;
                             }
 
-                        if (song.trackName != o) {
-                            o = song.trackName;
-                        }
-
-                        } catch (Exception e1) {
-                                e1.printStackTrace();
+                            if (song.trackName != o) {
+                                o = song.trackName;
+                                if (!(o == 0)) {
+                                    // o = o - 1;
+                                    //createListview();
+                                    scrollToPosition();
+                                }
                             }
 
-                        if (!(o == 0)) {
-                           // o = o - 1;
-                            //createListview();
-                            scrollToPosition();
+                        } catch (Exception e1) {
+                            e1.printStackTrace();
                         }
+
                     }
-                //handler.postDelayed(this, 10000); //check the current track every 10 seconds. If it changed, scroll to the new position. Might also act as a keepalive for the connection ?
+                }
+                handler.postDelayed(this, 5000); //check the current track every 10 seconds. If it changed, scroll to the new position. Might also act as a keepalive for the connection ?
                 // DISABLED. This is really too freaking annoying as the playlist keeps scrolling back to the current song, can't navigate and search for another track.
+                // other method: scroll to position only if the track changed since the next check. Check every 5s.
+                //should still be mildly annoying.
             }
         }
     };
 
- */
+
 public void createListview() {
 
     try {
@@ -1028,8 +1032,9 @@ public void startup() {
          });
 
 
-      //handler.post(refreshTrack);  //refresh track and move playlist to position every X seconds : annoying as hell when screen is on. Useless when screen is off.
+      handler.post(refreshTrack);  //refresh track and move playlist to position every X seconds : annoying as hell when screen is on. Useless when screen is off.
                                        // onResume() does it.
+                                // Final solution: scroll to position only if the track changed since last check.
 
     } else {
 
